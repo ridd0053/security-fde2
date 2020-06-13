@@ -72,7 +72,7 @@ class RegisterAdmin extends Command
 
         while (! $this->isValidPassword($details['password'], $details['confirm_password'])) {
             if (! $this->isRequiredLength($details['password'])) {
-                $this->error('Password must be more that six characters');
+                $this->error('Password must be more that eight characters');
             }
 
             if (! $this->isMatch($details['password'], $details['confirm_password'])) {
@@ -132,14 +132,14 @@ class RegisterAdmin extends Command
     }
 
     /**
-     * Checks if password is longer than six characters.
+     * Checks if password is longer than seven characters.
      *
      * @param string $password
      * @return bool
      */
     private function isRequiredLength(string $password) : bool
     {
-        return strlen($password) > 6;
+        return strlen($password) > 7;
     }
 }
 
