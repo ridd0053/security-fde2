@@ -1,0 +1,139 @@
+:root {
+    --custom-dark: #1F2421;
+    --custom-blue: #216869;
+    --custom-bluegreen: #49A078;
+    --custom-lightblue: #9CC5A1;
+    --custom-light: #DCE1DE;
+}
+
+
+
+
+
+
+/* custom navbar */
+.nav {
+    background-color: #1F2421;
+    color: #DCE1DE;
+    
+}
+.nav-link-color {
+    color: #DCE1DE !important;
+}
+.nav-link-color:hover {
+    color: #f0c808 !important;
+}
+.active {
+    color: #4db2e0 !important;
+    
+}
+/* end custom navbar */
+
+/*buttons*/
+
+.btn-500 {
+    color: #fff !important;
+    background-color: #1172A9 !important;
+    border-color: #1172A9 !important;
+  }
+  
+  .btn-500:hover {
+    color: #fff !important;
+    background-color: #5DADEC !important;
+    border-color: #5DADEC !important;
+  }
+
+  .btn-outline-500 {
+    color: #1172A9 !important;
+    background-color: #fff !important;
+    border-color: #1172A9 !important;
+  }
+  
+  .btn-outline-500:hover {
+    color: #fff !important;
+    background-color: #5DADEC !important;
+    border-color: #5DADEC !important;
+  }
+
+  .btn-404 {
+    color: #fff !important;
+    background-color: #5DADEC !important;
+    border-color: #5DADEC !important;
+  }
+  
+  .btn-404:hover {
+    color: #fff !important;
+    background-color: #1172A9 !important;
+    border-color: #1172A9 !important;
+  }
+
+  .btn-outline-404 {
+    color: #4aa0e6  !important;
+    background-color: #fff !important;
+    border-color: #4aa0e6  !important;
+  }
+  
+  .btn-outline-404:hover {
+    color: #fff !important;
+    background-color: #1172A9 !important;
+    border-color: #1172A9 !important;
+  }
+
+  .btn-contact {
+    color: #fff !important;
+    background-color: #3a87aa !important;
+    border-color: #3a87aa !important;
+  }
+  
+  .btn-contact:hover {
+    color: #fff !important;
+    background-color: #1172A9 !important;
+    border-color: #1172A9 !important;
+  }
+
+  .btn-post {
+    color: #fff !important;
+    background-color: #3a87aa !important;
+    border-color: #3a87aa !important;
+  }
+  
+  .btn-post:hover {
+    color: #fff !important;
+    background-color: #1172A9 !important;
+    border-color: #1172A9 !important;
+  }
+
+  
+
+
+  /*end buttons*/
+
+  .form-group.required .control-label:after {
+    content:"*" !important;;
+    
+  }
+  .form-group.required.error .control-label:after {
+    content:"*" !important;
+    color: red !important;
+    font-weight: bold !important;
+    
+  }
+
+  .footer {
+    position: absolute !important;
+    bottom: 0 !important;
+    width: 100% !important;
+    height: 2.5rem !important; 
+    background-color: #1F2421 !important;
+    color: #DCE1DE !important;
+    text-align: center !important;
+ }
+
+ #page-container {
+  position: relative !important;
+  min-height: 100vh !important;
+}
+
+#content-wrap {
+  padding-bottom: 2.5rem !important;    /* Footer height */
+}
